@@ -20,12 +20,18 @@
 }
 
 @keyframes move {
+  90% {
+    rotate: 50deg;
+  }
   100% {
     rotate: 45deg;
   }    
 }
 
 @keyframes moveopposite {
+  90% {
+    rotate: -50deg;
+  }
   100% {
     rotate: -45deg;
   }    
